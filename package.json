@@ -1,0 +1,12 @@
+{
+  "name": "camve",
+  "version": "1.0.0",
+  "description": "Camve Business Website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.8.0"
+  }
+}
