@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Solutions & Development - Camve</title>
+    <meta name="description"
+        content="Explore our premium IT solutions including custom web design, mobile app development, e-commerce stores, and secure cloud consulting.">
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Camve Logo" class="logo-img">
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#services" class="dropdown-trigger">Services <i class="fas fa-chevron-down"
+                                style="font-size: 0.75rem; margin-left: 3px;"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                            <li><a href="it-solutions.html">IT Solutions</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#process">How It Works</a></li>
+                    <li><a href="index.html#contact" class="btn-nav">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Services Hero Section -->
+    <section class="hero" style="min-height: 60vh; padding-top: 140px; padding-bottom: 60px; text-align: center;">
+        <div class="container" style="max-width: 800px;">
+            <div class="badge"> Scalable Engineering</div>
+            <h1 class="hero-title" style="font-size: 3.5rem;">IT Solutions & <span>Development</span></h1>
+            <p class="hero-desc" style="margin: 0 auto 2rem; max-width: 650px;">We engineer high-performance web
+                applications, secure cloud environments, and robust mobile solutions to power your business.</p>
+            <div class="hero-buttons" style="justify-content: center;">
+                <a href="index.html#contact" class="btn btn-primary">Start Your Build</a>
+                <a href="digital-marketing.html" class="btn btn-secondary">Explore Marketing Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Services List -->
+    <section class="section">
+        <div class="container">
+            <!-- Web Dev Detail -->
+            <div id="web-dev" class="about-container" style="margin-bottom: 8rem; scroll-margin-top: 100px;">
+                <div class="about-visual">
+                    <div class="glass-card about-card"
+                        style="padding: 4rem 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem;">
+                        <div class="service-icon" style="width: 100px; height: 100px; font-size: 3rem;"><i
+                                class="fas fa-desktop"></i></div>
+                        <h3
+                            style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 700; text-align: center;">
+                            Web Suite</h3>
+                        <p style="text-align: center; color: var(--text-muted);">Responsive design & custom application
+                            development.</p>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">💻 Website Design & Dev</h2>
+                    <p class="section-desc" style="font-size: 1.05rem;">Your website is your storefront. We build
+                        lightning-fast, visually stunning, and conversion-optimized websites that provide an outstanding
+                        user experience across all screen sizes.</p>
+
+                    <div class="why-choose-us" style="margin-top: 2rem;">
+                        <h3>What We Do:</h3>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> <strong>Custom UI/UX Styling:</strong> Interfaces
+                                tailored specifically for your target customer.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Responsive Development:</strong> Consistent
+                                formatting on mobile, tablet, and desktops.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Search-Engine Friendly:</strong> Built with
+                                semantic HTML structure for optimal indexation.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Performance Sizing:</strong> Fast rendering,
+                                minimal scripting overhead, and optimized media assets.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- E-commerce Detail -->
+            <div id="ecommerce" class="about-container"
+                style="margin-bottom: 8rem; scroll-margin-top: 100px; direction: rtl;">
+                <div class="about-visual" style="direction: ltr;">
+                    <div class="glass-card about-card"
+                        style="padding: 4rem 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem;">
+                        <div class="service-icon"
+                            style="width: 100px; height: 100px; font-size: 3rem; background: var(--gradient-2);"><i
+                                class="fas fa-shopping-cart"></i></div>
+                        <h3
+                            style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 700; text-align: center;">
+                            E-com Shop</h3>
+                        <p style="text-align: center; color: var(--text-muted);">Scalable sales channels and payment
+                            integrations.</p>
+                    </div>
+                </div>
+                <div class="about-content" style="direction: ltr;">
+                    <h2 class="section-title">🛒 E-commerce Solutions</h2>
+                    <p class="section-desc" style="font-size: 1.05rem;">Turn clicks into checkouts. We create
+                        high-converting e-commerce web applications built on Shopify, WooCommerce, or headless
+                        frameworks, complete with secure payment gateways and smooth order management.</p>
+
+                    <div class="why-choose-us" style="margin-top: 2rem;">
+                        <h3>What We Do:</h3>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> <strong>Store Design & Setup:</strong> Immersive
+                                product grids, sliders, and navigation headers.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Secure Gateway Connections:</strong> Secure
+                                integrations with Stripe, PayPal, and local providers.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Inventory Optimization:</strong> Sync
+                                products, stock numbers, and order tracking databases.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Customer Portals:</strong> Elegant dashboard
+                                workspaces for user order histories and checkout profiles.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile App Detail -->
+            <div id="mobile" class="about-container" style="margin-bottom: 8rem; scroll-margin-top: 100px;">
+                <div class="about-visual">
+                    <div class="glass-card about-card"
+                        style="padding: 4rem 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem;">
+                        <div class="service-icon" style="width: 100px; height: 100px; font-size: 3rem;"><i
+                                class="fas fa-mobile-alt"></i></div>
+                        <h3
+                            style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 700; text-align: center;">
+                            Mobile Apps</h3>
+                        <p style="text-align: center; color: var(--text-muted);">Cross-platform iOS and Android
+                            application builds.</p>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">📱 Mobile App Development</h2>
+                    <p class="section-desc" style="font-size: 1.05rem;">Put your business directly in your customer's
+                        pocket. We create intuitive, fluid, and robust mobile applications for iOS and Android using
+                        modern frameworks like Flutter and React Native.</p>
+
+                    <div class="why-choose-us" style="margin-top: 2rem;">
+                        <h3>What We Do:</h3>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> <strong>Cross-Platform Development:</strong> Single
+                                codebase deployable to both App Store and Google Play.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Native Performance:</strong> Optimized
+                                runtime speeds, fluid scroll animations, and hardware access.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Push Notifications:</strong> Direct alerts
+                                to engage and re-activate app users instantly.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>API Integrations:</strong> Link backend
+                                systems, dashboards, and third-party tools seamlessly.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cloud Services Detail -->
+            <div id="cloud" class="about-container"
+                style="margin-bottom: 8rem; scroll-margin-top: 100px; direction: rtl;">
+                <div class="about-visual" style="direction: ltr;">
+                    <div class="glass-card about-card"
+                        style="padding: 4rem 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem;">
+                        <div class="service-icon"
+                            style="width: 100px; height: 100px; font-size: 3rem; background: var(--gradient-2);"><i
+                                class="fas fa-cloud"></i></div>
+                        <h3
+                            style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 700; text-align: center;">
+                            Cloud Suite</h3>
+                        <p style="text-align: center; color: var(--text-muted);">Reliable hosting & scalable DevOps
+                            deployment.</p>
+                    </div>
+                </div>
+                <div class="about-content" style="direction: ltr;">
+                    <h2 class="section-title">☁️ Cloud Services</h2>
+                    <p class="section-desc" style="font-size: 1.05rem;">Keep your business scalable and secure. We
+                        design, build, and maintain cloud infrastructure on AWS, Google Cloud, and Microsoft Azure,
+                        reducing downtime and optimizing operations.</p>
+
+                    <div class="why-choose-us" style="margin-top: 2rem;">
+                        <h3>What We Do:</h3>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> <strong>Serverless Deployment:</strong> Autoscaling
+                                resources to support fluctuating user traffic.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Data Protection & Backups:</strong> Secure
+                                server storage systems with automatic failover support.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>DevOps Pipelines:</strong> Streamline
+                                updates with CI/CD build scripts.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Infrastructure Audits:</strong> Reduce
+                                hosting overhead with targeted load audits.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IT Consulting Detail -->
+            <div id="consulting" class="about-container" style="margin-bottom: 4rem; scroll-margin-top: 100px;">
+                <div class="about-visual">
+                    <div class="glass-card about-card"
+                        style="padding: 4rem 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem;">
+                        <div class="service-icon" style="width: 100px; height: 100px; font-size: 3rem;"><i
+                                class="fas fa-server"></i></div>
+                        <h3
+                            style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 700; text-align: center;">
+                            IT Advisory</h3>
+                        <p style="text-align: center; color: var(--text-muted);">Expert auditing, server monitoring &
+                            system security.</p>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">💼 IT Consulting & Support</h2>
+                    <p class="section-desc" style="font-size: 1.05rem;">Keep your software infrastructure fast, secure,
+                        and compliant. We audit your internal systems, implement robust cybersecurity protocols, and
+                        provide live support to eliminate IT obstacles.</p>
+
+                    <div class="why-choose-us" style="margin-top: 2rem;">
+                        <h3>What We Do:</h3>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> <strong>Infrastructure Audits:</strong>
+                                Comprehensive audits of your code, servers, and internal workflows.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Cybersecurity Audits:</strong> Penetration
+                                testing and firewalls to safeguard business data.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>System Maintenance:</strong> Proactive
+                                system patches and updates to prevent downtime.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Responsive Helpdesk:</strong> Direct tech
+                                support workspace to resolve questions quickly.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Bottom CTA Section -->
+    <section class="section bg-darker" style="text-align: center; padding: 6rem 0;">
+        <div class="container" style="max-width: 700px;">
+            <h2 class="section-title">Have an IT Project in Mind?</h2>
+            <p class="section-subtitle" style="margin-bottom: 2.5rem;">Connect with our technical architects and
+                developers for a free architecture review and project estimate.</p>
+            <a href="index.html#contact" class="btn btn-primary">Start a Consultation <i class="fas fa-code"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="logo.png" alt="Camve Logo" class="logo-img">
+                    </a>
+                    <p>Empowering businesses with innovative digital solutions that drive real results.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                        <li><a href="it-solutions.html">IT Solutions</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Camve. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
